@@ -25,9 +25,8 @@ const columnClassMap = {
 } as const;
 
 // Icon mapping for different metric types
-const getMetricIcon = (label: string, id: string) => {
+const getMetricIcon = (label: string) => {
   const lowerLabel = label.toLowerCase();
-  const lowerId = id.toLowerCase();
   
   if (lowerLabel.includes("student") || lowerLabel.includes("enrollment")) return Users;
   if (lowerLabel.includes("course") || lowerLabel.includes("class")) return BookOpen;
@@ -69,7 +68,7 @@ export function MetricGrid({ title, metrics, columns = 3 }: MetricGridProps) {
             delta={metric.delta}
             trend={metric.trend}
             context={metric.context}
-            icon={getMetricIcon(metric.label, metric.id)}
+            icon={getMetricIcon(metric.label)}
             variant={getMetricVariant(metric)}
           />
         ))}

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
 import { 
   FlaskConical, 
   Code, 
@@ -125,7 +124,6 @@ const LAB_FEATURES: LabFeature[] = [
 ];
 
 export function EnhancedLabsPage() {
-  const { t } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
   const filteredFeatures = selectedCategory === "all" 
