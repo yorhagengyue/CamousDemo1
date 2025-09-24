@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "数字化校园演示"
+  },
+  "actions": {
+    "signIn": "登录",
+    "signOut": "退出",
+    "switchRole": "切换角色",
+    "viewAll": "查看全部",
+    "markAllRead": "全部标记已读",
+    "toggleTheme": "切换主题"
+  },
+  "nav": {
+    "dashboard": "仪表台",
+    "messages": "消息中心",
+    "students": "学生管理", 
+    "teachers": "教师管理",
+    "courses": "课程管理",
+    "enrolment": "选课管理",
+    "attendance": "考勤",
+    "leave": "请假",
+    "reports": "报告",
+    "admin": "系统管理",
+    "settings": "设置",
+    "labs": "实验室"
+  },
+  "roles": {
+    "student": "学生",
+    "teacher": "教师",
+    "hod": "系主任",
+    "principal": "校长",
+    "admin": "管理员"
+  },
+  "states": {
+    "loading": "加载中...",
+    "empty": "暂无数据",
+    "unauthorized": "无权限访问此区域"
+  }
+}

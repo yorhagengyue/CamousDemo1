@@ -1,0 +1,167 @@
+{
+  "app": {
+    "title": "Digital Campus Demo",
+    "subtitle": "Comprehensive Education Management System",
+    "description": "Experience the future of education with our integrated campus management platform"
+  },
+  "actions": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "switchRole": "Switch role",
+    "viewAll": "View all",
+    "markAllRead": "Mark all read",
+    "toggleTheme": "Toggle theme",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "approve": "Approve",
+    "reject": "Reject",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "refresh": "Refresh",
+    "export": "Export",
+    "import": "Import",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "messages": "Messages",
+    "students": "Students",
+    "teachers": "Teachers",
+    "courses": "Courses",
+    "enrolment": "Enrolment",
+    "attendance": "Attendance",
+    "leave": "Leave",
+    "reports": "Reports",
+    "admin": "Admin",
+    "settings": "Settings",
+    "labs": "Labs"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "quickActions": "Quick Actions",
+    "recentActivity": "Recent Activity",
+    "todaySchedule": "Today's Schedule",
+    "upcomingEvents": "Upcoming Events",
+    "statistics": "Statistics",
+    "announcements": "Announcements",
+    "notifications": "Notifications"
+  },
+  "messages": {
+    "inbox": "Inbox",
+    "sent": "Sent",
+    "drafts": "Drafts",
+    "compose": "Compose",
+    "subject": "Subject",
+    "recipient": "Recipient",
+    "body": "Message Body",
+    "sendMessage": "Send Message",
+    "reply": "Reply",
+    "forward": "Forward",
+    "markAsRead": "Mark as Read",
+    "markAsUnread": "Mark as Unread"
+  },
+  "students": {
+    "profile": "Student Profile",
+    "information": "Personal Information",
+    "academic": "Academic Information",
+    "contact": "Contact Details",
+    "guardian": "Guardian Information",
+    "enrollment": "Enrollment Details",
+    "achievements": "Achievements",
+    "disciplinary": "Disciplinary Records"
+  },
+  "teachers": {
+    "profile": "Teacher Profile",
+    "qualifications": "Qualifications",
+    "subjects": "Teaching Subjects",
+    "classes": "Assigned Classes",
+    "schedule": "Teaching Schedule",
+    "performance": "Performance Reviews"
+  },
+  "courses": {
+    "catalog": "Course Catalog",
+    "details": "Course Details",
+    "syllabus": "Syllabus",
+    "materials": "Course Materials",
+    "assignments": "Assignments",
+    "grades": "Grades",
+    "enrollment": "Enrollment",
+    "prerequisites": "Prerequisites"
+  },
+  "attendance": {
+    "overview": "Attendance Overview",
+    "takeAttendance": "Take Attendance",
+    "viewRecords": "View Records",
+    "statistics": "Attendance Statistics",
+    "present": "Present",
+    "absent": "Absent",
+    "late": "Late",
+    "excused": "Excused"
+  },
+  "leave": {
+    "application": "Leave Application",
+    "history": "Leave History",
+    "approvals": "Pending Approvals",
+    "calendar": "Leave Calendar",
+    "balance": "Leave Balance",
+    "type": "Leave Type",
+    "reason": "Reason",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+  "reports": {
+    "academic": "Academic Reports",
+    "attendance": "Attendance Reports",
+    "financial": "Financial Reports",
+    "custom": "Custom Reports",
+    "export": "Export Report",
+    "schedule": "Schedule Report"
+  },
+  "admin": {
+    "userManagement": "User Management",
+    "systemSettings": "System Settings",
+    "auditLogs": "Audit Logs",
+    "backups": "Backups",
+    "maintenance": "Maintenance",
+    "integrations": "Integrations"
+  },
+  "roles": {
+    "student": "Student",
+    "teacher": "Teacher",
+    "hod": "Head of Department",
+    "principal": "Principal",
+    "admin": "Administrator"
+  },
+  "states": {
+    "loading": "Loading...",
+    "empty": "No data available",
+    "unauthorized": "You do not have access to this area.",
+    "error": "An error occurred",
+    "success": "Operation completed successfully",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "forms": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "department": "Department",
+    "grade": "Grade",
+    "class": "Class",
+    "studentId": "Student ID",
+    "teacherId": "Teacher ID"
+  }
+}
