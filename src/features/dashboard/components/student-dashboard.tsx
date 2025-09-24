@@ -2,7 +2,6 @@ import { GraduationCap, MessageSquare, NotebookPen } from "lucide-react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MetricCard } from "@/components/ui/metric-card";
-import { FadeIn } from "@/components/ui/fade-in";
 import { MetricGrid } from "@/features/dashboard/components/metric-grid";
 import { TimelineList } from "@/features/dashboard/components/timeline-list";
 import { WorklistCard } from "@/features/dashboard/components/worklist-card";
