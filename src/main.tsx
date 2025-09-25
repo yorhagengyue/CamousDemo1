@@ -7,9 +7,17 @@ import { AppProviders } from "@/providers/app-providers";
 import "@/styles/global.css";
 
 async function enableMocking() {
-  if (import.meta.env.DEV) {
+  // Enable MSW in both development and production for demo purposes
+  if (import.meta.env.DEV || import.meta.env.PROD) {
     const { worker } = await import("@/mocks/browser");
-    await worker.start({ onUnhandledRequest: "bypass" });
+    await worker.start({ 
+      onUnhandledRequest: "bypass",
+      serviceWorker: {
+        url: "/mockServiceWorker.js"
+      }
+    });
+    // Mark MSW as available for fallback detection
+    (window as any).__MSW_AVAILABLE__ = true;
   }
 }
 
